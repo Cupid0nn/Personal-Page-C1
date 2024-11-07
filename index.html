@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet2" href="./styles/reset.css">
+</head>
+<body>
+    <div class="cajapadre">
+        <div class="caja">
+            <a class="tecnologias">estas son mis tecnologias favoritas</a>
+            <div class="etiquetas">
+                <img src="./assets/html.png" alt="html" title="html" class="html" width="300px" height="300px">
+                <img src="./assets/css.png" alt="css" class="css" width="300px" height="300px">
+                <img src="./assets/js.jpg" alt="js" class="js" width="300px" height="300px">
+                <img src="./assets/IA.jpg" alt="ia" class="ia" width="300px" height="300px">
+            </div>
+        </div>
+        <div class="caja2">
+            <h1 class="nombre">Mateo Acierno</h1>
+            <img class="mifotosrc" src="./assets/WhatsApp Image 2024-06-24 at 5.19.49 PM.jpeg" alt="mifoto" width="300px" height="300px">
+        </div>
+    </div>
+    <div class="cajapadre2">
+        <div class="caja3">
+            <div class="inputs">
+                <a class="texto2">Actividades favoritas:</a>
+                <br/>
+                <input type="text" id="titulo" placeholder="Título">
+                <br/>
+                <input type="text" id="descripcion" placeholder="Descripción">
+                <br/>
+                <input type="text" id="imagen" placeholder="URL de la imagen">
+                <br/>
+            </div>
+            <input id="boton" type="button" value="agregar">
+        </div>
+        <div class="caja4">
+            <a class="texto">Actividades:</a>
+            <div id="listaActividades" class="grid-container"></div> <!-- Añadimos la clase grid-container -->
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
